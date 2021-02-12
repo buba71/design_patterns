@@ -1,0 +1,13 @@
+{
+    "name": "david/observer",
+    "description": "Test observer pattern",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
