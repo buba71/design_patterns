@@ -31,7 +31,7 @@ final class Fan implements \SplObserver
         $state = $subject->getState();
 
         if(in_array($state['group'], $this->getFollowedGroups()) && $state['location'] === $this->getLocation()) {
-            echo nl2br("concert planned notification\n");
+            echo nl2br(__CLASS__ . " ". "concert planned notification\n");
         }
     }
 }

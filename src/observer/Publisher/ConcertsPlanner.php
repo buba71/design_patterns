@@ -78,7 +78,6 @@ final class ConcertsPlanner implements \SplSubject
     public function notify(): void
     {
         foreach($this->observers as $observer) {
-            echo nl2br("hello\n");
             $observer->update($this); 
         }
     }

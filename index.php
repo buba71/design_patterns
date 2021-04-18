@@ -9,6 +9,8 @@ use App\observer\Observers\Fan2;
 require_once('vendor/autoload.php');
 ini_set('display_errors', '1');
 
+echo "<h1> This is the observer pattern result</h1>";
+
 $concertsPlanner = new ConcertsPlanner();
 
 $fan = new Fan();
