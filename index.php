@@ -11,7 +11,7 @@ use App\decorator\decorators\EmailNotifierDecorator;
 use App\decorator\decorators\SMSNotifierDecorator;
 use App\adapter\EmailNotification;
 use App\adapter\SlackNotificationAdapter;
-use App\Adapter\SlackApi;
+use App\adapter\SlackApi;
 use App\adapter\NotificationInterface;
 
 require_once('vendor/autoload.php');
