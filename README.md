@@ -1,7 +1,10 @@
 ## PHP design patterns
+
 This repository show the following design patterns behaviours:
+
 - decorator
 - observer
+- adapter
 
 Another ones shoud be added.
 
