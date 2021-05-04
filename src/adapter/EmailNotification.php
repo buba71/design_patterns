@@ -15,7 +15,7 @@ final class EmailNotification implements NotificationInterface
 
   public function send(string $title, string $message)
   {
-    mail($this->adminEmail, $title, $message);
+    mail($this->adminEmail, $title, $message); // Throw an error warning because smtp not setted.
     echo "Sent email with title '$title' to '$this->adminEmail' that says '$message'";        
   }
 }
