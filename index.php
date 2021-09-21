@@ -21,3 +21,6 @@ require_once('src/memento/main.php');
 
 echo '<h2>5-Façade pattern results</h2>';
 require_once('src/facade/main.php');
+
+echo '<h2>6-Proxy pattern results</h2>';
+require_once('src/proxy/main.php');
