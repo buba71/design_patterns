@@ -16,5 +16,8 @@ require_once('src/decorator/main.php');
 echo '<h2>3-Adapter pattern results</h2>';
 require_once('src/adapter/main.php');
 
-echo '<h2>Memento pattern results</h2>';
+echo '<h2>4-Memento pattern results</h2>';
 require_once('src/memento/main.php');
+
+echo '<h2>5-Façade pattern results</h2>';
+require_once('src/facade/main.php');
